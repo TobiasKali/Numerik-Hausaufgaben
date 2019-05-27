@@ -27,7 +27,7 @@ def euler(bound):
         pyplot.plot(t_series, y_error)
     print(error)
     pyplot.show()
-    return (np.log(error[3]/(error[4]))/(np.log(10**-2/10**-3)))
+    return (np.log(error[3]/(error[4]))/(np.log(10**-4/10**-5)))
 
 
 print(euler(1))
